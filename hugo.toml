@@ -1,0 +1,57 @@
+baseURL = 'https://litlpoet.github.io/'
+title = 'Litlpoet'
+theme = 'hugo-coder'
+languageCode = 'en-us'
+
+[params]
+    author = "Byungkuk Choi"
+    description = "Byungkuk's personal website"
+    keywords = "researcher,developer,engineer"
+    info = [
+    "Computer Graphics Researcher",
+    "Software Developer",
+    "Linux & Emacs Enthusiast"
+    ]
+
+    since = 2023
+
+    avatarURL = "images/home_ujoo.jpg"
+    favicon_16 = "icons/favicon-16x16.png"
+    favicon_32 = "icons/favicon-32x32.png"
+
+    colorScheme = "dark"
+    hideColorSchemeToggle = false
+    enableTwemoji = true
+
+# Social links
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-2x fa-linkedin"
+    weight = 1
+    url = "https://www.linkedin.com/in/litlpoet/"
+
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-2x fa-github"
+    weight = 2
+    url = "https://github.com/litlpoet/"
+
+# Taxonomies
+[taxonomies]
+    tag = "tags"
+
+# Menu links
+[[menu.main]]
+    name = "Daybyte"
+    weight = 1
+    url = "daybyte/"
+
+[[menu.main]]
+    name = "Botaniques"
+    weight = 2
+    url = "botanique/"
+
+[[menu.main]]
+    name = "Techscapes"
+    weight = 3
+    url = "techscape/"
