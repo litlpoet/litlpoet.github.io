@@ -23,6 +23,9 @@ languageCode = 'en-us'
     hideColorSchemeToggle = false
     enableTwemoji = true
 
+[[params.googleTagManager]]
+    id = "G-5SKDKC95M4"
+
 # Social links
 [[params.social]]
     name = "LinkedIn"
