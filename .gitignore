@@ -1,0 +1,6 @@
+# directories
+public/
+resources/_gen
+
+# files
+.hugo_build.lock
