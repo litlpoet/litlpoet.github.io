@@ -1,6 +1,7 @@
 # directories
 public/
 resources/_gen
+themes/hugo-PaperMod
 
 # files
 .hugo_build.lock
